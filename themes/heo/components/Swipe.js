@@ -12,7 +12,11 @@ export function Swipe({ items }) {
 
   const handleClick = item => {
     if (isBrowser) {
-      window.open(item?.url)
+      if (item?.url && item?.url.startsWith('http')) {
+        window.open(item?.url)
+      } else {
+        window.location.href = item?.url;
+      }
     }
   }
 
