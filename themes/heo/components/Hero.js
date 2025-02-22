@@ -360,7 +360,8 @@ function TodayCard({ cRef, siteInfo }) {
       } overflow-hidden absolute hidden xl:flex flex-1 flex-col h-full top-0 w-full`}>
       <div
         id='card-body'
-        onClick={handleCardClick}
+        onMouseOver={handleClickShowMore}
+        // onClick={handleCardClick}
         className={`${
           isCoverUp
             ? 'opacity-100 cursor-pointer'
@@ -379,19 +380,19 @@ function TodayCard({ cRef, siteInfo }) {
             </div>
           </div>
           {/* 查看更多的按钮 */}
-          <div
-            onClick={handleClickShowMore}
-            className={`'${isCoverUp ? '' : 'hidden pointer-events-none'} z-10 group flex items-center px-3 h-10 justify-center  rounded-3xl
-            glassmorphism transition-colors duration-100 `}>
-            <PlusSmall
-              className={
-                'group-hover:rotate-180 duration-500 transition-all w-6 h-6 mr-2 bg-white rounded-full stroke-black'
-              }
-            />
-            <div id='more' className='select-none'>
-              {locale.COMMON.RECOMMEND_POSTS}
-            </div>
-          </div>
+          {/*<div*/}
+          {/*  // onClick={handleClickShowMore}*/}
+          {/*  className={`'${isCoverUp ? '' : 'hidden pointer-events-none'} z-10 group flex items-center px-3 h-10 justify-center  rounded-3xl*/}
+          {/*  glassmorphism transition-colors duration-100 `}>*/}
+          {/*  <PlusSmall*/}
+          {/*    className={*/}
+          {/*      'group-hover:rotate-180 duration-500 transition-all w-6 h-6 mr-2 bg-white rounded-full stroke-black'*/}
+          {/*    }*/}
+          {/*  />*/}
+          {/*  <div id='more' className='select-none'>*/}
+          {/*    {locale.COMMON.RECOMMEND_POSTS}*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
 
         {/* 封面图 */}
