@@ -4,7 +4,7 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2022-01-26', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
@@ -17,8 +17,8 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
+  HEO_HERO_TITLE_1: '凌晨的代码',
+  HEO_HERO_TITLE_2: '藏着白天的梦',
   HEO_HERO_TITLE_3: 'FHCY.TOP',
   HEO_HERO_TITLE_4: '学无止境',
   HEO_HERO_TITLE_5: '代码可以重构，但人生无法回滚。',
@@ -38,13 +38,13 @@ const CONFIG = {
 
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
-    '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '一行代码解决问题，一夜调试找原因。',
+    '今天挖的坑，明天含泪填。',
+    '不怕慢，就怕站。',
+    '先运行起来，再优化下去。',
+    '不怕代码烂，就怕没人看。',
+    '时间换空间，空间换时间。',
+    '代码即人生，迭代即成长。'
   ],
 
   // 个人资料底部按钮
