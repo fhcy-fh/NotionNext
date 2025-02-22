@@ -109,7 +109,7 @@ const CONFIG = {
       img_1: '/images/heo/ubuntu.png',
       color_1: '#ffffff',
       title_2: 'shell',
-      img_2: '/images/heo/shell.png',
+      img_2: '/images/heo/spring.png',
       color_2: '#ffffff'
     }
   ],
