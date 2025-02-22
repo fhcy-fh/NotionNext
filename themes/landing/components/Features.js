@@ -6,7 +6,6 @@ import { Transition } from '@headlessui/react'
 import CONFIG from '../config'
 import LazyImage from '@/components/LazyImage'
 import { siteConfig } from '@/lib/config'
-// import FeaturesElement from '@/public/images/features-element.png'
 
 export default function Features() {
   const [tab, setTab] = useState(1)
