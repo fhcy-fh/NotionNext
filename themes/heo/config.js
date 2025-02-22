@@ -17,11 +17,11 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '凌晨的代码',
-  HEO_HERO_TITLE_2: '藏着白天的梦',
+  HEO_HERO_TITLE_1: '技术无顶峰',
+  HEO_HERO_TITLE_2: '学习无终点',
   HEO_HERO_TITLE_3: 'FHCY.TOP',
   HEO_HERO_TITLE_4: '学无止境',
-  HEO_HERO_TITLE_5: '代码可以重构，但人生无法回滚。',
+  HEO_HERO_TITLE_5: '代码可以重构，人生无法重来。',
   HEO_HERO_TITLE_LINK: 'https://fhcy.top',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
