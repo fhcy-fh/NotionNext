@@ -109,22 +109,22 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
                   readTime={post.readTime}
                 />
               </div>
-              {post?.type !== 'Page' && (
-                <>
-                  <Link
-                    href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
-                    passHref
-                    className='pl-1 mr-2 cursor-pointer hover:underline'>
-                    <i className='fa-regular fa-calendar'></i>{' '}
-                    {post?.publishDay}
-                  </Link>
-                </>
-              )}
+            </div>
+            {post?.type !== 'Page' && (
+              <>
+                <Link
+                  href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
+                  passHref
+                  className='pl-1 mr-2 cursor-pointer hover:underline'>
+                  <i className='fa-regular fa-calendar'></i>{' '}
+                  {post?.publishDay}
+                </Link>
+              </>
+            )}
 
-              <div className='pl-1 mr-2'>
-                <i className='fa-regular fa-calendar-check'></i>{' '}
-                {post.lastEditedDay}
-              </div>
+            <div className='pl-1 mr-2'>
+              <i className='fa-regular fa-calendar-check'></i>{' '}
+              {post.lastEditedDay}
             </div>
 
             {/* 阅读统计 */}
