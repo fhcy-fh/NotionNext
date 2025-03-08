@@ -31,7 +31,7 @@ const ThemeSwitch = () => {
           id='draggableBox'
           style={{ left: '0px', top: '80vh' }}
           className='border dark:border-gray-600 fixed group flex flex-col items-start space-y-2 overflow-hidden z-20 p-3
-                    dark:text-white bg-white dark:bg-black 
+                    dark:text-white bg-white dark:bg-black
                       rounded-xl shadow-lg hover:scale-105 hover:shadow-2xl   '>
           {/* 主题切换按钮 */}
           <div className='text-sm flex items-center group-hover:w-44 h-4 text-center duration-200'>
@@ -93,9 +93,6 @@ const ThemeSwitch = () => {
         </div>
 
         <hr className='my-4 dark:border-gray-600' />
-
-        <div>点击下方主题进行切换.</div>
-        <div> Click below to switch the theme.</div>
 
         {/* 陈列所有主题 */}
         <div className='grid lg:grid-cols-2 gap-6'>
