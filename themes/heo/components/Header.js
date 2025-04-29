@@ -167,14 +167,14 @@ const Header = props => {
 
           {/* 右侧固定 */}
           <div className='flex flex-shrink-0 justify-end items-center w-48'>
-            <RandomPostButton {...props} />
-            <SearchButton {...props} />
-            {!JSON.parse(siteConfig('THEME_SWITCH')) && (
-              <div className='hidden md:block'>
-                <DarkModeButton {...props} />
-              </div>
-            )}
-            <ReadingProgress />
+            {/*<RandomPostButton {...props} />*/}
+            {/*<SearchButton {...props} />*/}
+            {/*{!JSON.parse(siteConfig('THEME_SWITCH')) && (*/}
+            {/*  <div className='hidden md:block'>*/}
+            {/*    <DarkModeButton {...props} />*/}
+            {/*  </div>*/}
+            {/*)}*/}
+            {/*<ReadingProgress />*/}
 
             {/* 移动端菜单按钮 */}
             <div
